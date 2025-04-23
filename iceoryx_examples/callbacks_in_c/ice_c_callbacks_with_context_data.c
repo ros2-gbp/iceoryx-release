@@ -96,7 +96,7 @@ void onSampleReceivedCallback(iox_sub_t subscriber, void* contextData)
 }
 //! [subscriber callback]
 
-int main(void)
+int main()
 {
     signal(SIGINT, sigHandler);
     signal(SIGTERM, sigHandler);

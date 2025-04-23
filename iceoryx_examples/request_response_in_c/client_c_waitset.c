@@ -38,7 +38,7 @@ void sigHandler(int signalValue)
     keepRunning = false;
 }
 
-int main(void)
+int main()
 {
     signal(SIGINT, sigHandler);
     signal(SIGTERM, sigHandler);

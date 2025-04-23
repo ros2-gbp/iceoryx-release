@@ -58,7 +58,7 @@ void searchFrontDevices(const iox_service_description_t service, void* count)
 }
 //! [search function for all front devices]
 
-int main(void)
+int main()
 {
     signal(SIGINT, sigHandler);
     signal(SIGTERM, sigHandler);

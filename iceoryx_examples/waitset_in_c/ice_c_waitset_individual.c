@@ -42,7 +42,7 @@ static void sigHandler(int signalValue)
     iox_user_trigger_trigger(shutdownTrigger);
 }
 
-int main(void)
+int main()
 {
     //! [initialization and shutdown handling]
     iox_runtime_init("iox-c-waitset-individual");
