@@ -1,0 +1,26 @@
+From 76f2ca6f74490e5360acb44a3e1fd8ec7fc602d8 Mon Sep 17 00:00:00 2001
+From: Shane Loretz <sloretz@intrinsic.ai>
+Date: Wed, 29 Apr 2026 16:47:46 +0000
+Subject: [PATCH] Remove punctuation from maintainer name
+
+Signed-off-by: Shane Loretz <sloretz@intrinsic.ai>
+---
+ package.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/package.xml b/package.xml
+index 3ce0b4f1eecc..4d241262c4c5 100644
+--- a/package.xml
++++ b/package.xml
+@@ -4,7 +4,7 @@
+     <name>iceoryx_introspection</name>
+     <version>2.0.5</version>
+     <description>Eclipse iceoryx inter-process-communication (IPC) middleware introspection client</description>
+-    <maintainer email="iceoryx-oss-support@apex.ai">Eclipse Foundation, Inc.</maintainer>
++    <maintainer email="iceoryx-oss-support@apex.ai">Eclipse Foundation Inc</maintainer>
+     <license>Apache 2.0</license>
+     <url type="website">https://iceoryx.io</url>
+     <url type="bugtracker">https://github.com/eclipse-iceoryx/iceoryx/issues</url>
+-- 
+2.53.0
+
