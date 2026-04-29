@@ -1,4 +1,4 @@
-From 1fb2e45fdb1e3abd2fd83ecfc556f57356c1b88c Mon Sep 17 00:00:00 2001
+From ebb8e87eae644d808ca401cb63409609c5d33118 Mon Sep 17 00:00:00 2001
 From: Shane Loretz <sloretz@intrinsic.ai>
 Date: Wed, 29 Apr 2026 16:48:38 +0000
 Subject: [PATCH] Remove punctuation from maintainer name
@@ -9,7 +9,7 @@ Signed-off-by: Shane Loretz <sloretz@intrinsic.ai>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/package.xml b/package.xml
-index 9888ed0..fd65be0 100644
+index 9888ed0ef621..fd65be078075 100644
 --- a/package.xml
 +++ b/package.xml
 @@ -4,7 +4,7 @@
@@ -22,5 +22,5 @@ index 9888ed0..fd65be0 100644
      <url type="website">https://iceoryx.io</url>
      <url type="bugtracker">https://github.com/eclipse-iceoryx/iceoryx/issues</url>
 -- 
-2.54.0.545.g6539524ca2-goog
+2.53.0
 
