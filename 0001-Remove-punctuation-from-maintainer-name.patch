@@ -1,4 +1,4 @@
-From 46a99f7ab66cf4f2d559289eb0ef7fadcdbbd92d Mon Sep 17 00:00:00 2001
+From 51b07f3f5ec76a09268469d5e69aff64a8e6ec69 Mon Sep 17 00:00:00 2001
 From: Shane Loretz <sloretz@intrinsic.ai>
 Date: Wed, 29 Apr 2026 16:48:38 +0000
 Subject: [PATCH] Remove punctuation from maintainer name
